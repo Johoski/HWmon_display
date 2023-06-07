@@ -31,7 +31,7 @@ void loop() {
         lcd.setCursor(0, 0); // move cursor to the beginning of the first line
         lcd.print("CPU: "); // display the "CPU" label on the LCD
         lcd.print(cpuUsage); // display the CPU percentage on the LCD
-        lcd.print("%  "); // display the "%" symbol and some padding on the LCD
+        lcd.print("% "); // display the "%" symbol and some padding on the LCD
         lcd.print("RAM: "); // display the "RAM" label on the LCD
         lcd.print(ramUsage); // display the RAM percentage on the LCD
         lcd.print("%  "); // display the "%" symbol and some padding on the LCD
